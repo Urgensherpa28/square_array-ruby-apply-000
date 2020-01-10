@@ -4,11 +4,8 @@ def square_array(array)
   new_array = []
   counter = 0
   array.each do |numbers|
-    # new_array << array[counter] ** 2
-    # counter += 1
-    nums = numbers ** numbers
-    counter << nums
-    new_array << counter
+    new_array << array[counter] ** 2
+    counter += 1
   end
   return new_array
 end
