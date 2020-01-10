@@ -9,4 +9,5 @@ def square_array(array)
     # nums = numbers ** numbers
     # counter << nums
   end
+  return new_array
 end
